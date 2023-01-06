@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+p {
+  line-height: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0 none;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+header {
+  background-color: #fff8f3;
+  background-image: url('../images/developer.png'),
+    url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px 0;
+  padding-top: 50px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  margin-left: 50px;
+}
+nav li a {
+  color: #474747;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.site_title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.site_title span {
+  color: #fd6e0a;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+div.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 100px;
+}
+div.banner_content h3 {
+  font-weight: 600;
+  font-size: 45px;
+}
+div.banner_content h2 {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+div.banner_content p {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.btn-primary.btn-white {
+  border: 1px solid #fd6e0a;
+  background-color: #fff;
+  color: #fd6e0a;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+section.about {
+  background-color: #fff8f3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 130px 155px;
+  margin-bottom: 130px;
+}
+.section_title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.about_info_wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.about_info_wrap .about_info h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.about_info_wrap .about_info p {
+  font-weight: 700;
+  color: #474747;
+}
+
+section.what_i_do {
+  text-align: center;
+}
+
+section.what_i_do > p {
+  max-width: 80%;
+  margin: 0 auto 50px;
+}
+
+.tech_boxes {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+.single_tech {
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
